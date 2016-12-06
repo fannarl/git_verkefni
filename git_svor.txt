@@ -21,3 +21,5 @@ Git spurningar of svör
 4. 	Hvað er útgáfustýring (e.version control)?: Version control is a system that records changes to a file or a set of files over time so that you can recall a specific versions later.
 
 5.	Hverjir eru helstu kostir við að nota GIT?: Working offline Git uses the concept of local repository where you have a copy of the “complete repository” of your project. You can commit the changes you make to the files of your project to the local repository. So Git allows you to work completely offline, i.e. even when you do not have access to a remote repository. Its fast to work with. Repositories are smaller.
+
+6.	Hversu oft telur þú að eigi að gera commit í verkefni, rökstuddu?: its different on a case to case bases but generally everytime you make something that works and does not break anything else. In practice that means a few times per hour. Also each time you encounter a bug or a typo and fix it
