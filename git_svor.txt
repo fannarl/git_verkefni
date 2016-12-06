@@ -12,3 +12,8 @@ Git spurningar of svör
 	git status: Show the working tree status. Displays paths that have diffrences between the index file and the current HEAD commit, paths that have differences between the working tree and the index file, and paths in the working tree that are not tracked by Git.
 	git diff: Show changes between commits,commit and working tree, etc.Show changes between the working tree and the index or a tree, changes between the index and a tree, changes between teo trees, changes between two blob objects, or changes between two files on  disk.
 	git checkout: Switch branches or restore working tree files. Updates files in the working tree to match the version in the index or the specified tree. If no paths are given, git checkout will also update HEAD to set the specified branch as the current branch.
+
+3. Hver er munurinn á eftirfarandi git skipunum:
+	a) git diff: Show changes between commits, commit and working tree, etc
+	b) git diff --staged: Shows changes that have been staged
+	c) git diff commit1 commit2: Shows changes to specific commits
