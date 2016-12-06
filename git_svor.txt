@@ -1,0 +1,29 @@
+Git spurningar og svör
+1. Hvað gera eftirfarandi Linux skipanir?
+	cd : The cd command is used to change the current directory(i.e., the directory in which the user is currently working) in Linux and other Unix-like operating systems.
+	cd ~ : This is easier than typing the full name of the user's home directory.
+	ls : list directory contents
+	pwd : print the name of the working directory
+	mkdir :Short for "make directory",mkdir is used to create directories on a file system
+
+2. Hvað gera eftirfarandi git skipanir og hvers vegna eru þær gagnlegar?
+	git clone: Clone a repository into a new directory.Clones a repository into a newly created directory, creates remote-tracking branches for each branch in the cloned repository (visible using git branch -r), and creates and checks out an initial branch that is forked from the cloned repository’s currently active branch.
+	git log: Shows the commit logs. the command takes option to the git rev-list command to control what is shown and how, and options applicable to the git diff-* commands to control how the changes commit introduces are shown.
+	git status: Show the working tree status. Displays paths that have diffrences between the index file and the current HEAD commit, paths that have differences between the working tree and the index file, and paths in the working tree that are not tracked by Git.
+	git diff: Show changes between commits,commit and working tree, etc.Show changes between the working tree and the index or a tree, changes between the index and a tree, changes between teo trees, changes between two blob objects, or changes between two files on  disk.
+	git checkout: Switch branches or restore working tree files. Updates files in the working tree to match the version in the index or the specified tree. If no paths are given, git checkout will also update HEAD to set the specified branch as the current branch.
+
+3. Hver er munurinn á eftirfarandi git skipunum:
+	a) git diff: Show changes between commits, commit and working tree, etc
+	b) git diff --staged: Shows changes that have been staged
+	c) git diff commit1 commit2: Shows changes to specific commits
+
+4. 	Hvað er útgáfustýring (e.version control)?: Version control is a system that records changes to a file or a set of files over time so that you can recall a specific versions later.
+
+5.	Hverjir eru helstu kostir við að nota GIT?: Working offline Git uses the concept of local repository where you have a copy of the “complete repository” of your project. You can commit the changes you make to the files of your project to the local repository. So Git allows you to work completely offline, i.e. even when you do not have access to a remote repository. Its fast to work with. Repositories are smaller.
+
+6.	Hversu oft telur þú að eigi að gera commit í verkefni, rökstuddu?: its different on a case to case bases but generally everytime you make something that works and does not break anything else. In practice that means a few times per hour. Also each time you encounter a bug or a typo and fix it
+
+7.	Hvað er "Working directory"?" "Staging area"?" og "Repository" í GIT?The working directory is a single checkout of one version of the project. These files are pulled out of the compressed database in the Git directory and placed on disk for you to use or modify.The staging area is a file, generally contained in your Git directory, that stores information about what will go into your next commit. It’s sometimes referred to as the “index”, but it’s also common to refer to it as the staging area.The purpose of Git is to manage a project, or a set of files, as they change over time. Git stores this information in a data structure called a repository.
+
+8.	Hvenær er sniðugt að nota greinar (branches)? : In Git, branches are a part of your everyday development process. When you want to add a new feature or fix a bug—no matter how big or how small—you spawn a new branch to encapsulate your changes. This makes sure that unstable code is never committed to the main code base, and it gives you the chance to clean up your feature’s history before merging it into the main branch.
