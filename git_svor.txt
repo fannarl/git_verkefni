@@ -1,1 +1,7 @@
 Git spurningar of svör
+1. Hvað gera eftirfarandi Linux skipanir?
+	cd : The cd command is used to change the current directory(i.e., the directory in which the user is currently working) in Linux and other Unix-like operating systems.
+	cd ~ : This is easier than typing the full name of the user's home directory.
+	ls : list directory contents
+	pwd : print the name of the working directory
+	mkdir :Short for "make directory",mkdir is used to create directories on a file system
