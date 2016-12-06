@@ -5,3 +5,10 @@ Git spurningar of svör
 	ls : list directory contents
 	pwd : print the name of the working directory
 	mkdir :Short for "make directory",mkdir is used to create directories on a file system
+
+2. Hvað gera eftirfarandi git skipanir og hvers vegna eru þær gagnlegar?
+	git clone: Clone a repository into a new directory.Clones a repository into a newly created directory, creates remote-tracking branches for each branch in the cloned repository (visible using git branch -r), and creates and checks out an initial branch that is forked from the cloned repository’s currently active branch.
+	git log: Shows the commit logs. the command takes option to the git rev-list command to control what is shown and how, and options applicable to the git diff-* commands to control how the changes commit introduces are shown.
+	git status: Show the working tree status. Displays paths that have diffrences between the index file and the current HEAD commit, paths that have differences between the working tree and the index file, and paths in the working tree that are not tracked by Git.
+	git diff: Show changes between commits,commit and working tree, etc.Show changes between the working tree and the index or a tree, changes between the index and a tree, changes between teo trees, changes between two blob objects, or changes between two files on  disk.
+	git checkout: Switch branches or restore working tree files. Updates files in the working tree to match the version in the index or the specified tree. If no paths are given, git checkout will also update HEAD to set the specified branch as the current branch.
